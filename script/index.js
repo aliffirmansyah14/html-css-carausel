@@ -4,7 +4,6 @@ const nextButton = document.querySelector(".carausel__btn.right");
 const prevButton = document.querySelector(".carausel__btn.left");
 const dotNav = document.querySelector(".dot__navigasi");
 
-let index = 0;
 const width = slides[0].getBoundingClientRect().width;
 
 const createNav = (parent, length) => {
